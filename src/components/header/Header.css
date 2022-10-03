@@ -1,0 +1,23 @@
+
+.header {
+    height: 3rem;
+    width: 100%;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 0;
+    z-index: 98;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.homeIcon {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+.homeIcon:hover {
+    color: rgba(0, 0, 0, 0.5);
+} 
